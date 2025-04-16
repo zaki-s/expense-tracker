@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242323;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #d1d1d1;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    margin-top: 10px;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between
+  }
+
+
+  .expense-form {
+    background-color: #1d1d1d;
+    padding: 30px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 450px;
+    margin-right: 30px;
+    font-size: 1.2rem; 
+  }
+  
+  .expense-form h2 {
+    font-size: 1.8rem;
+    color: #dadada;
+    margin-bottom: 15px;
+  }
+  
+  .expense-form p {
+    font-size: 1.2rem;
+    color: #969696;
+    margin-bottom: 25px;
+  }
+  
+  .expense-form input,
+  .expense-form select {
+    width: 100%;
+    padding: 16px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2c2c2c;
+    color: #ffffff;
+  }
+  
+
+  .expense-table {
+    width: 100%;
+    background-color: #1d1d1d;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    font-size: 1.2rem;
+    color: white;
+    overflow-x: auto;
+  }
+  
+  .expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+  
+  .expense-table th {
+    color: #646464;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .expense-table tr:hover {
+    background-color: #2c2c2c;
+  }
+  
+
+  .expense-form button {
+    width: 100%;
+    padding: 16px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #838788, #1e1f20);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .expense-form button:hover {
+    background: linear-gradient(135deg, #1e1f20, #838788);
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.603);
+  }
+  
+
+
+
+  
